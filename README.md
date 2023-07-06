@@ -14,7 +14,7 @@ Además de los conceptos teóricos, este curso se enfocará en ejercicios práct
 
 Ten en cuenta que este repositorio se mantendrá actualizado durante todo el segundo semestre de este año 2023, lo que significa que siempre tendrás acceso a contenido nuevo y relevante a medida que avances en tu aprendizaje.
 
-¡Únete a este curso y comienza tu viaje en la programación en JavaScript hoy mismo!"
+¡Únete a este curso y comienza tu viaje en la programación en JavaScript hoy mismo!
 
 ## Enlaces de Interés
 
