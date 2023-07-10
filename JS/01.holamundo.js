@@ -2,7 +2,7 @@
 Docente: Victor Saldivia Vera - Institución: Universidad de Los Lagos*/
 
 
-//alert("Hola Mundo! - JS Externo");
-console.log("Hola Mundo!")
+alert("Hola Mundo! - JS Externo");
+//console.log("Hola Mundo!")
 //console.log("Este es un mensaje que se ve en la consola del navegador")
 

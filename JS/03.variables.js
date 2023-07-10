@@ -23,7 +23,7 @@ const apellido = "Saldivia"
 
 //Concatenando Variables de tipo String
 const nombrecompleto = nombre + " " + apellido
-console.log(nombrecompleto)
+console.log(nombrecompleto);
 
 
 //Declarando e Inicializando Variables en una Línea
