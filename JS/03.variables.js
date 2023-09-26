@@ -35,6 +35,6 @@ console.log(n);
 var n = 10;
 
 //JavaScript interpreta el bloque de código de arriba de la siguiente manera:
-/* var n;
+/*var n;
 console.log(n);
-n = 10; */
+n = 10;*/
