@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        #contenedor {
+            position: relative;
+            background-color: #C0C0C0;
+        }
+
+        #cuadrado1 {
+            background-color: #00FF00;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 100px;
+            top: 100px;
+        }
+    </style>
+    <script>
+        class Cuadrado {
+            constructor() {
+                this.posX = Cuadrado.incrementa;
+                console.log(this.posX);
+            }
+            static get incrementa() {
+                Cuadrado.numero = (Cuadrado.numero || 100) + 20;
+                return Cuadrado.numero;
+            }
+            establecerPosX1(name) {
+                document.getElementById(name).style.left = this.posX + "px";
+            }
+            salirPantalla(name) {
+                let cadena = "Posición:" + this.posX
+                document.getElementById(name).innerHTML = cadena;
+            }
+        }
+        function incrementar(nom) {
+            objCuadrado = new Cuadrado();
+            objCuadrado.establecerPosX1(nom);
+            objCuadrado.salirPantalla(nom);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="cuadrado1" onclick="incrementar('cuadrado1')"></div>
+    </div>
+</body>
+
+</html>
