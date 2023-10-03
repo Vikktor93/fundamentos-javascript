@@ -54,7 +54,7 @@ alert(`La Suma es de: ${suma}`);
 console.log('\n################ USO DEL CONTINUE ################')
 for (let i = 0; i < 10; i++) {
     if (i % 2 == 0) continue;
-    alert(i); // 1, luego 3, 5, 7, 9
+    alert(i); // 1, luego 3, 5, 7, 9 (solo impares)
 }
 
 
