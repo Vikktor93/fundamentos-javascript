@@ -9,6 +9,7 @@ function mostrarMensaje() {
 //Llamando a la función
 mostrarMensaje();
 
+
 console.log('\n################ VARIABLES INTERNAS ################')
 function varInterna() {
     let mensaje = "Hola, ¡Soy un Mensaje de una Variable Local!"; // variable local
@@ -27,7 +28,7 @@ function mostrarNombre() {
 
 mostrarNombre(); // ¡Hola!, Victor
 
-//Modificanndo la Variable Externa
+//Modificando la Variable Externa
 let institucion = 'Ulagos'; //variable global
 function mostrarInstitucion() {
     let institucion = "Universidad de Los Lagos";
@@ -37,5 +38,4 @@ function mostrarInstitucion() {
 
 //La función crea y utiliza su propia variable local institucion
 mostrarInstitucion();
-
 alert(institucion); //Ulagos, se mantiene, la función no accedió a la variable externa
