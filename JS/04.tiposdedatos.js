@@ -51,6 +51,7 @@ console.log(`Mi nombre es: ${nombre}`);
 console.log(ciudad + " y " + capital + " pertenecen a la Región de Los Lagos ");
 
 //Operador con Comas
+console.log('Mi nombre es ', nombre);
 console.log(capital, "es la capital de la Región de Los Lagos");
 
 //Utilizando el Método concat
@@ -77,6 +78,12 @@ if (V) {
 console.log('################ NULL ################');
 let numero_nuevo = null;
 console.log(numero_nuevo);
+
+//UTILIZANDO NULL
+let dato = null;
+if (dato === null) {
+    console.log('¡OK!');
+}
 
 
 //UNDEFINED
