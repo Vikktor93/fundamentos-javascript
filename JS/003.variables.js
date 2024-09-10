@@ -2,7 +2,6 @@
 // Docente: Victor Saldivia Vera
 // Universidad de Los Lagos
 
-
 // Variables que pueden cambiar con el tiempo
 var estatura = 1.71
 let peso = 60
