@@ -138,6 +138,7 @@ usuario["estado_civil"] = "Soltero"
 // Eliminando una propiedad del objeto
 delete usuario.estado;
 
+// Impresión del Objeto Actualizado
 console.log(usuario);
 
 // Si deseo saber el tipo de dato
