@@ -109,29 +109,31 @@ console.log(id1 === id2); // Falso, cada símbolo es único
 
 // Hay 2 formas de crear un objeto
 console.log('################ OBJETOS ################')
-let user = new Object(); // sintaxis de "constructor de objetos"
-let user1 = {};  // sintaxis de "objeto literal"
+let user = new Object(); // sintaxis de "constructor de objetos" (No se suele ocupar a menudo)
+let usuario = {};  // Objeto literal (Objeto Vacío)
 
 // Objeto Literal
-let usuario = {          // un objeto
+usuario = {          // un objeto
     name: "Mateo",      // En la clave "name" se almacena el valor "Mateo"
     age: 30,           // En la clave "age" se almacena el valor 30
     city: "Osorno",    // En la clave "city" se almacena el valor "Osorno"
     "correo electronico": "mateo@gmail.com"   // Se puede agregar claves con espacios utilizando comillas
 };
 
+// Accediendo a una propiedad del objeto (Propiedad Nombre)
+console.log(usuario.name);
 
-// Agregando una propiedad nueva al Objeto Literal (En este caso un Booleano)
+// Accediendo a una propiedad con más de 2 palabras en su clave (Propiedad Correo)
+console.log(usuario["correo electronico"]);
+
+// Agregando nuevas propiedades al Objeto Literal (Notación con Puntos)
 usuario.provincia = "Provincia de Osorno";
 usuario.estado = true;
 usuario.pais = "Chile";
 usuario.genero = "Masculino";
 
-// Accediendo a una propiedad del objeto (No sirve para acceder a propiedad de más de 2 palabras)
-console.log(usuario);
-
-// Accediendo a una propiedad con más de 2 palabras en su clave
-console.log(usuario["correo electronico"]);
+// Agregando nuevas propiedades al Objeto Literal (Notación con Corchetes)
+usuario["estado_civil"] = "Soltero"
 
 // Eliminando una propiedad del objeto
 delete usuario.estado;
@@ -141,8 +143,6 @@ console.log(usuario);
 // Si deseo saber el tipo de dato
 console.log('################ SABER EL TIPO DE DATO ################')
 console.log(typeof nombre);
-
-
 
 // Transformando la Variable edad de Number a String
 console.log('################ TRANSFORMANDO DE NUMBER A STRING ################')
