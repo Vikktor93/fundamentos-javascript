@@ -1,5 +1,6 @@
-/*GUIA RÁPIDA: OPERADORES EN JS -  10 de Julio 2023
-Docente: Victor Saldivia Vera - Institución: Universidad de Los Lagos*/
+// GUIA CURSO INTRODUCTORIO JS - 15 DE SEPTIEMBRE 2024
+// Docente: Victor Saldivia Vera
+// Universidad de Los Lagos
 
 //OPERANDOS Y OPERADORES
 console.log('################ OPERANDOS Y OPERADORES ################');
